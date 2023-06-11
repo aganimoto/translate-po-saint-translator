@@ -1,0 +1,35 @@
+# Kompilierte Dateien
+*.pyc
+*.pyo
+
+# Virtuelle Umgebungen
+venv/
+env/
+.venv/
+
+# Logdateien
+*.log
+
+# Vom Betriebssystem generierte Dateien
+.DS_Store
+Thumbs.db
+
+# Sensible Konfigurationsdateien
+config.ini
+credentials.json
+
+# Installierte Abhängigkeiten und Pakete
+/poetry.lock
+/.tox/
+/.mypy_cache/
+/__pycache__/
+
+# Während der Ausführung generierte Dateien
+/output/
+
+# Übersetzungsdateien
+*.po
+
+# Spezifische Verzeichnisse für IDEs
+.idea/
+.vscode/
